@@ -24,7 +24,7 @@ import tensorflow as tf
 from datasets import dataset_factory
 from nets import nets_factory
 from preprocessing import preprocessing_factory
-
+from tensorflow.contrib import slim
 slim = tf.contrib.slim
 
 tf.app.flags.DEFINE_integer(
